@@ -1,0 +1,33 @@
+2025-05-26 16:30:30 [main] WARN  TestNGContentHandler:133 - It is strongly recommended to add "<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >" at the top of the suite file [C:\Users\rajat.lad\eclipse-workspace\com.learning.capstone\testng_capstone.xml] otherwise TestNG may fail or not work as expected.
+2025-05-26 16:30:31 [main] INFO  Utils:112 - [TestNG] Running:
+  C:\Users\rajat.lad\eclipse-workspace\com.learning.capstone\testng_capstone.xml
+
+2025-05-26 16:30:31 [main] INFO  TestBase:33 - Launching the application
+2025-05-26 16:30:31 [main] INFO  TestBase:40 - Running in HEADLESS mode from config.properties
+2025-05-26 16:30:44 [main] INFO  TestBase:59 - Application launched and page objects initialized
+2025-05-26 16:30:44 [main] INFO  LoginTest:15 - Starting VerifyAdminMenu test
+2025-05-26 16:30:45 [main] INFO  LoginPage:28 - Entered username: Admin
+2025-05-26 16:30:45 [main] INFO  LoginPage:33 - Entered password
+2025-05-26 16:30:45 [main] INFO  LoginPage:38 - Clicked login button
+2025-05-26 16:30:45 [main] INFO  LoginPage:61 - Performed login action
+2025-05-26 16:30:45 [main] INFO  LoginTest:18 - Logged in with admin credentials
+2025-05-26 16:30:47 [main] INFO  LoginPage:44 - URL validation passed: contains dashboard
+2025-05-26 16:30:47 [main] INFO  LoginTest:22 - Verified dashboard URL
+2025-05-26 16:30:49 [main] INFO  AdminPage:21 - Clicked Admin menu
+2025-05-26 16:30:49 [main] INFO  LoginTest:26 - Clicked on Admin menu
+2025-05-26 16:30:53 [main] INFO  AddUserPage:35 - Clicked Add User button
+2025-05-26 16:30:54 [main] INFO  AddUserPage:44 - Selected role: Admin
+2025-05-26 16:31:15 [main] INFO  AddUserPage:66 - Selected status: Enabled
+2025-05-26 16:31:15 [main] INFO  AddUserPage:72 - Entered username: Rajeshh5567
+2025-05-26 16:31:16 [main] INFO  AddUserPage:78 - Entered password
+2025-05-26 16:31:16 [main] INFO  AddUserPage:84 - Entered confirm password
+2025-05-26 16:31:16 [main] INFO  AddUserPage:89 - Clicked Save button
+2025-05-26 16:31:16 [main] INFO  AddUserPage:112 - User added successfully
+2025-05-26 16:31:16 [main] INFO  LoginTest:30 - Added user with role Admin and status Enabled
+2025-05-26 16:31:19 [main] INFO  LoginPage:49 - Clicked on user dropdown
+2025-05-26 16:31:21 [main] INFO  LoginPage:54 - Clicked on logout button
+2025-05-26 16:31:21 [main] INFO  LoginTest:39 - Logged out successfully
+2025-05-26 16:31:23 [main] INFO  LoginPage:44 - URL validation passed: contains login
+2025-05-26 16:31:23 [main] INFO  LoginTest:43 - Verified login URL after logout
+2025-05-26 16:31:23 [main] INFO  LoginTest:45 - VerifyAdminMenu test completed successfully
+2025-05-26 16:31:26 [main] INFO  TestBase:65 - Closing the application
